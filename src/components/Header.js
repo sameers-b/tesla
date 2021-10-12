@@ -1,4 +1,4 @@
-
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
    return (
@@ -23,6 +23,9 @@ const Header = () => {
                   <li>Account</li>
                   <li>Menu</li>
                </ul>
+            </div>
+            <div className="mobile-menu">
+               <AiOutlineMenu />
             </div>
          </div>
       </>
